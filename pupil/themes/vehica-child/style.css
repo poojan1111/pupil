@@ -1,0 +1,137 @@
+/*
+Theme Name: pupil Child
+Theme URI: https://pupil.360websitedemo.com
+Author: 360 Inc
+Author URI: https://wewant360.com
+Template: vehica
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: translation-ready
+Text Domain: vehica
+*/
+/* a{
+  pointer-events: none;
+} */
+
+.vehica-car-card__price {
+    color: #ca9f7c !important;
+}
+.vehica-car-card__name {
+    color: #222732 !important;
+}
+.vehica-car-card__info__single:first-child {
+    background: #222732 !important;
+}
+.vehica-car-card__inner {
+    background: #ffffff !important;
+}
+.vehica-carousel-v1 .vehica-car-card__inner:hover {
+    border-color: #ca9f7c !important;
+}
+.vehica-car-card__inner {
+    background-color: #fff !important;
+    box-shadow: 1px 1px 0 0 rgba(196,196,196,.24) !important;
+    border: solid 1px #e7edf3 ;
+    transition: all .2s ease;
+    height: 100%;
+}
+.vehica-car-card__separator {
+    background: #e8e8e8 !important;
+}
+.advance-search{
+	 color: #ca9f7c !important;
+	 font-size: 16px !important;
+    font-weight: 900 !important;
+}
+.vehica-search-classic-v2__search-button-wrapper button.vehica-button {
+    margin-right: 12px !important;
+}
+.drop-down{
+	    border: 1px solid #e7edf3;
+    box-shadow: 1px 1px 0 0 rgba(196, 196, 196, 0.24);
+    padding: 0 0 0 27px;
+    background: #fff;
+    border-radius: 10px;
+    position: relative;
+}
+/* select.dropdown{
+	border: 0 solid transparent;
+    padding: 10px 0;
+    min-height: 51px;
+    margin: 0;
+    font-size: 14px;
+    line-height: 16px;
+    width: 100%;
+    color: #2f3b48 !important;
+	width:30%;
+	border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+   
+    color: blue;
+}  */
+select#dropdown {
+    border: 1px solid #e7edf3;
+    box-shadow: 1px 1px 0 0 rgba(196, 196, 196, 0.24);
+    padding: 16px 10px 16px 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 22%;
+}
+.dropdown-div {
+    margin-left: 60px;
+}
+select#dropdown {
+    border: 0 solid transparent;
+    min-height: 51px;
+    font-size: 14px;
+	font-weight:500;
+    color: #2f3b48;
+}
+/*search form in home page*/
+.advance-btn
+{
+    padding-top: 10px;
+    line-height: 1 !important;
+}
+.advance-filds
+{
+    position: absolute;
+    top: 75%;
+	background: #ffffff87;
+    border-top-left-radius: unset;
+	border-top-right-radius: unset;
+	z-index:1;
+	padding:30px 22px 17px 22px;
+}
+#advance_search
+{
+    cursor: pointer;
+}
+.advance-less
+{
+    margin: 15px 10px 8px 20px;
+}
+.advance-less i 
+{
+    color: #68686896;
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.advance-filds .vs__dropdown-menu li
+{
+    padding-left: 10px !important;
+}
+.advance-filds .vs__dropdown-menu li span:first-child{
+    white-space: nowrap !important;
+    font-size: 13.5px !important;
+}
+.advance-filds .vs__dropdown-menu li span:nth-child(2)
+{
+    display: none;
+}
+.newsletter .vehica-contact-form .wpcf7-form-control-wrap {
+    margin-bottom: 0px !important;
+}
