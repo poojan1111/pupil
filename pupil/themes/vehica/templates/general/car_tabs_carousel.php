@@ -101,7 +101,9 @@ $vehicaCars = $vehicaCurrentWidget->getCars();
                 <div class="vehica-carousel-v1-button">
                     <a class="vehica-button" :href="carTabs.viewAllUrl" :title="carTabs.viewAllTitle">
                         <?php echo esc_html(vehicaApp('view_string')); ?>
-                        <template>{{ carTabs.viewAllCount }} {{ carTabs.viewAllTitle }}</template>
+                        <!-- <template>{{ carTabs.viewAllCount }} {{ carTabs.viewAllTitle }}</template> -->
+                        <template>All</template>
+
                     </a>
                 </div>
             <?php endif; ?>

@@ -125,7 +125,9 @@ $vehicaFeaturedCars = $vehicaCurrentWidget->getFeaturedCars();
                     <div class="vehica-featured-v1__button">
                         <a class="vehica-button" :href="carTabs.viewAllUrl" :title="carTabs.viewAllTitle">
                             <?php echo esc_html(vehicaApp('view_string')); ?>
-                            <template>{{ carTabs.viewAllCount }} {{ carTabs.viewAllTitle }}</template>
+                            <!-- <template>{{ carTabs.viewAllCount }} {{ carTabs.viewAllTitle }}</template> -->
+                            <template>All</template>
+
                         </a>
                     </div>
                 <?php endif; ?>
