@@ -9225,7 +9225,7 @@ body.author .vehica-send-pm textarea {
     width: 100%;
     background: #fff;
     border-radius: 20px;
-    padding: 16px 22px 17px 22px;
+    padding: 7px 11px;
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
     position: relative;
 }
@@ -10570,7 +10570,8 @@ body.author .vehica-send-pm textarea {
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
-        color: #222732;
+        /* color: #222732; */
+        color: #CA9F7C;
     }
 }
 
@@ -10579,8 +10580,8 @@ body.author .vehica-send-pm textarea {
         display: block;
         font-size: 24px;
         line-height: 30px;
-        font-weight: bold;
-        color: #222732;
+        font-weight: 800;
+        color: #CA9F7C;
         width: 100%;
         max-width: 100%;
         margin-bottom: 8px;
@@ -10897,7 +10898,7 @@ body.author .vehica-send-pm textarea {
 
 .vehica-car-card__price-mobile {
     font-size: 20px;
-    font-weight: 800;
+    font-weight: bold;
     line-height: 24px;
     margin-left: auto;
     color: #0f141e;
