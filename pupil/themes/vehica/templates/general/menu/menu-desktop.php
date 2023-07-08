@@ -182,19 +182,53 @@ global $vehicaCurrentWidget;
             <?php endif; ?>
 
             <?php if ($vehicaCurrentWidget->showSubmitButton()) : ?>
-                <a
+               <!--  <a
                         class="vehica-button vehica-button--menu-submit"
                         href="<?php echo esc_url($vehicaCurrentWidget->getSubmitButtonUrl()); ?>"
-                >
+                > -->
                         <span class="vehica-menu-item-depth-0">
-                            <?php if ($vehicaCurrentWidget->hasButtonCustomIcon()) : ?>
-                                <i class="<?php echo esc_attr($vehicaCurrentWidget->getButtonCustomIcon()); ?>"></i>
-                            <?php else : ?>
-                                <i class="fas fa-plus"></i>
-                            <?php endif; ?>
-                            <span><?php echo esc_html(vehicaApp('submit_vehicle_string')); ?></span>
+                          
+                            <!-- add  -->
+                            <style>
+                            .elementor-social-icons-wrapper {
+                                display: inline-flex;
+                            }
+
+                            .elementor-social-icons-wrapper .elementor-grid-item {
+                                margin-right: 0px;
+                            }
+                            </style>
+
+                            <div class="elementor-social-icons-wrapper">
+                                <span class="elementor-grid-item">
+                                    <a class="elementor-icon elementor-social-icon elementor-social-icon-header elementor-social-icon-facebook-f elementor-repeater-item-dffefd4" href="https://www.facebook.com/pupiloffatecarrental/" target="_blank">
+                                        <span class="elementor-screen-only">Facebook-f</span>
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </span>
+                                <span class="elementor-grid-item">
+                                    <a class="elementor-icon elementor-social-icon elementor-social-icon-header elementor-social-icon-instagram elementor-repeater-item-7d5e042" href="https://instagram.com/pupiloffate_carrental" target="_blank">
+                                        <span class="elementor-screen-only">Instagram</span>
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </span>
+                                <span class="elementor-grid-item">
+                                    <a class="elementor-icon elementor-social-icon elementor-social-icon-header elementor-social-icon-tiktok elementor-repeater-item-6dbe3b9" href="https://www.tiktok.com/@pupiloffate_carrental" target="_blank">
+                                        <span class="elementor-screen-only">Tiktok</span>
+                                        <i class="fab fa-tiktok"></i>
+                                    </a>
+                                </span>
+                                <span class="elementor-grid-item">
+                                    <a class="elementor-icon elementor-social-icon elementor-social-icon-header elementor-social-icon-linkedin elementor-repeater-item-c12daf2" href="https://www.linkedin.com/company/pupiloffate/" target="_blank">
+                                        <span class="elementor-screen-only">Linkedin</span>
+                                        <i class="fab fa-linkedin"></i>
+                                    </a>
+                                </span>
+                            </div>
+
+                            <!-- add -->
                         </span>
-                </a>
+                <!-- </a> -->
             <?php endif; ?>
         </div>
     </div>
